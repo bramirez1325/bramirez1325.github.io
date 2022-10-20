@@ -710,6 +710,9 @@ w = 80vw
     .modal__half {
         width: 100%;
     }
+    .shape--3 {
+        display: none;
+    }
 }
 
 /* SMALL PHONES */
@@ -737,5 +740,9 @@ w = 80vw
     }
     .modal__half {
         padding: 40px;
+    }
+    .shape--4,
+    .shape--5 {
+        display: none;
     }
 }
